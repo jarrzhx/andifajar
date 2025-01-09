@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poker Pizza</title>
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!--Feather Icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--Style-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Poker<span>Pizza</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form -->
+
+      <!-- Shopping Cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/Pizza Classic.jpg" alt="Menu 1" />
+          <div class="item-detail">
+            <h3>Pizza Classic</h3>
+            <div class="item-price">IDR 40K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/Pizza Classic.jpg" alt="Menu 1" />
+          <div class="item-detail">
+            <h3>Pizza Classic</h3>
+            <div class="item-price">IDR 40K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/Pizza Classic.jpg" alt="Menu 1" />
+          <div class="item-detail">
+            <h3>Pizza Classic</h3>
+            <div class="item-price">IDR 40K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart -->
+    </nav>
+    <!--Navbar-->
+
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati <span>Pizza</span> Di Tempat Kami</h1>
+        <p>Menyediakan Berbagai Macam Pizza, Jangan Lupa</p>
+        <a href="#products" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero section -->
+
+    <!-- About section-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang kami 5.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Pizza Kami?</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolore exercitationem, dignissimos praesentium ullam dolorum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque, ad labore a eaque doloribus nulla porro odio dolorum natus!</p>
+        </div>
+      </div>
+    </section>
+    <!-- About section-->
+
+    <!-- Menu section -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>Daftar Menu Poker Pizza</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/Pizza Classic.jpg" alt="Pizza Classic" class="menu-card-img" />
+          <h3 class="menu-card-title">- Pizza Classic -</h3>
+          <p class="menu-card-price">IDR 55</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Extra Meat.jpg" alt="Extra Meat" class="menu-card-img" />
+          <h3 class="menu-card-title">- Extra Meat -</h3>
+          <p class="menu-card-price">IDR 75</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/American Favourite.jpg" alt="American Favourite" class="menu-card-img" />
+          <h3 class="menu-card-title">- American Favourite -</h3>
+          <p class="menu-card-price">IDR 70K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Mushrooms and Olives Pizza.jpg" alt="Mushrooms and Olives Pizza" class="menu-card-img" />
+          <h3 class="menu-card-title">- Mushrooms and Olives Pizza -</h3>
+          <p class="menu-card-price">IDR 50</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Pepperoni Pizza.jpg" alt="Pepperoni Pizza" class="menu-card-img" />
+          <h3 class="menu-card-title">- Pepperoni Pizza -</h3>
+          <p class="menu-card-price">IDR 45K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Pepperoni and Vegetables Pizza.jpg" alt="Pepperoni and Vegetables Pizza" class="menu-card-img" />
+          <h3 class="menu-card-title">- Pepperoni and Vegetables Pizza -</h3>
+          <p class="menu-card-price">IDR 60K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section -->
+
+    <!-- Product section -->
+    <section class="products" id="products">
+      <h2><span>Produk Rekomendasi</span> Kami</h2>
+      <p>Menu Yang Paling Kami Rekomendasikan Ada Di Bawah Ini</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Extra Meat.jpg" alt="Menu 2" />
+          </div>
+        </div>
+        <div class="product-content">
+          <h3>Extra Meat</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 50K <span>IDR 75K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Pizza Classic.jpg" alt="Menu 1" />
+          </div>
+        </div>
+        <div class="product-content">
+          <h3>Pizza Classic</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 40K <span>IDR 55K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/American Favourite.jpg" alt="Menu 3" />
+          </div>
+        </div>
+        <div class="product-content">
+          <h3>American Favourite</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 67K <span>IDR 70K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Mushrooms and Olives Pizza.jpg" alt="Menu 4" />
+          </div>
+        </div>
+        <div class="product-content">
+          <h3>Mushrooms and Olives Pizza</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 45K <span>IDR 50K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Pepperoni Pizza.jpg" alt="Menu 5" />
+          </div>
+        </div>
+        <div class="product-content">
+          <h3>Pepperoni Pizza</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 40K <span>IDR 45K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Pepperoni and Vegetables Pizza.jpg" alt="Menu 6" />
+          </div>
+        </div>
+        <div class="product-content">
+          <h3>Pepperoni and Vegetables Pizza</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 53K <span>IDR 60K</span></div>
+        </div>
+      </div>
+    </section>
+    <!-- Product section -->
+
+    <!-- Kontak section -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Silahkan Hubungi Kami dengan Mengisi Form Di Bawah Ini</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987.128229073623!2d119.52415853829356!3d-5.0621278987286535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbef958619d65a1%3A0x170485cdebc4f8d4!2sKomp.%20Griya%20Batas%20Kota%20Maros!5e0!3m2!1sid!2sid!4v1731411755759!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Kontak section -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="sosials">
+        <a href="https://www.instagram.com/jarrrzhx?igsh=MW1kZXZid3BxcHVsbQ=="><i data-feather="instagram"></i></a>
+        <a href="https://x.com/jarrrzhx?t=CdHUOYC_sE3-05TQCpSbHg&s=08"><i data-feather="twitter"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">andifajar</a>. | &copy; 2024</p>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Modal Box Item Detail -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Extra Meat.jpg" alt="Menu 1" />
+          <div class="product-content">
+            <h3>Extra Meat</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus debitis commodi sit voluptatum earum accusantium?</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 50K <span>IDR 75K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail -->
+
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JS-->
+    <script src="script.js"></script>
+  </body>
+</html>
